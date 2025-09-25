@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Media and Form Example</title>
+</head>
+<body>
+
+<!-- 🖼️ Add Image using local storage -->
+<h2>Image from Local Storage:</h2>
+<img src="images/local-image.jpg" alt="Local Image" width="300" />
+
+<!-- 🌐 Add Image from CDN -->
+<h2>Image from CDN:</h2>
+<img src="https://via.placeholder.com/300x200.png?text=CDN+Image" alt="CDN Image" width="300" />
+
+<!-- 🎥 Add Video from CDN -->
+<h2>Video from CDN:</h2>
+<video width="400" controls>
+<source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+Your browser does not support the video tag.
+</video>
+
+<!-- 📝 Basic Form -->
+<h2>Login Form:</h2>
+<form action="#" method="POST">
+<label for="username">USERNAME:</label><br />
+<input
+type="text"
+id="username"
+name="username"
+placeholder="ENTER USERNAME"
+required
+/><br /><br />
