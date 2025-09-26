@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delicious Bites</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      background-color: #fff8e7;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(90deg, #ff6f61, #ffcc70);
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #333;
+    }
+
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      background: #ff6f61;
+    }
+
+    .container {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      overflow: hidden;
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+    }
+
+    .card h3 {
+      margin: 10px 0;
+      color: #ff6f61;
+    }
+
+    .card p {
+      margin: 0 0 15px;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🍴 Delicious Bites</h1>
+    <p>Fresh • Tasty • Colorful</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#menu">Menu</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container" id="home">
+    <h2>Welcome to Delicious Bites</h2>
+    <p>We serve the best food with love ❤️</p>
+  </div>
+
+  <div class="container" id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu">
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?dosa,food" alt="Dosa">
+        <h3>Dosa</h3>
+        <p>₹40</p>
+      </div>
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?idly,food" alt="Idly">
+        <h3>Idly</h3>
+        <p>₹15</p>
+      </div>
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?poori,food" alt="Poori">
+        <h3>Poori</h3>
+        <p>₹60</p>
+      </div>
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?coffee,drink" alt="Coffee">
+        <h3>Coffee</h3>
+        <p>₹25</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="about">
+    <h2>About Us</h2>
+    <p>At Delicious Bites, we believe in serving happiness on a plate. Our chefs prepare every dish with fresh ingredients and authentic recipes.</p>
+  </div>
+
+  <div class="container" id="contact">
+    <h2>Contact Us</h2>
+    <p>📍 Location: Main Street, City</p>
+    <p>📞 Phone: +91 9876543210</p>
+  </div>
+
+  <footer>
+    <p>© 2025 Delicious Bites | Made with ❤️</p>
+  </footer>
+
+</body>
+</html>
